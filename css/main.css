@@ -1,28 +1,3 @@
-@media (min-width: 576px) {
-  h1 {
-    color: orange;
-  }
-}
-
-@media (min-width: 768px) {
-  h1 {
-    color: orange;
-  }
-}
-
-@media (min-width: 992px) {
-  h1 {
-    color: orange;
-  }
-}
-
-@media (min-width: 1200px) {
-  h1 {
-    color: orange;
-  }
-}
-
-
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -255,6 +230,10 @@ h1.jumbotron-heading {
     font-size: 1.25rem;
     line-height: 1.4;
   }
+
+  .carousel-item {
+    height: 25vh;
+}
 
   .featurette-heading {
     font-size: 50px;
