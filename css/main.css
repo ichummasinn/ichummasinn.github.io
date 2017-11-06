@@ -222,6 +222,11 @@ h1.jumbotron-heading {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media (max-width: 40em) {
+  .carousel-item {
+    height: 25vh;
+  }
+}
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
@@ -230,10 +235,6 @@ h1.jumbotron-heading {
     font-size: 1.25rem;
     line-height: 1.4;
   }
-
-  .carousel-item {
-    height: 25vh;
-}
 
   .featurette-heading {
     font-size: 50px;
