@@ -16,23 +16,6 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-<!-- For Google Reviews -->
-<link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdn.rawgit.com/stevenmonson/googleReviews/6e8f0d79/google-places.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyA0lT7WQbYFH2eKXTsZv2uIfbeKgBJoTkw&signed_in=true&libraries=places"></script>
-
-<script>
-jQuery(document).ready(function( $ ) {
-   $("#google-reviews").googlePlaces({
-        placeId: 'ChIJlUUt2CHapTsRG2J5VVoxA7U' //Find placeID @: https://developers.google.com/places/place-id
-   // , render: ['reviews']
-      , min_rating: 4
-      , max_rows:4
-   });
-});
-</script>
-<!-- For Google Reviews End -->
 </head>
 <body>
   
@@ -138,6 +121,21 @@ jQuery(document).ready(function( $ ) {
     
 <!-- Google Reviews -->
 <div id="google-reviews"></div>
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/stevenmonson/googleReviews/6e8f0d79/google-places.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key= AIzaSyA0lT7WQbYFH2eKXTsZv2uIfbeKgBJoTkw&signed_in=true&libraries=places"></script>
+
+<script>
+jQuery(document).ready(function( $ ) {
+   $("#google-reviews").googlePlaces({
+        placeId: 'ChIJlUUt2CHapTsRG2J5VVoxA7U' //Find placeID @: https://developers.google.com/places/place-id, render: ['reviews']
+      , min_rating: 4
+      , max_rows:4
+   });
+});
+</script>
 <!-- Google Reviews End -->
 
     <div class="card mb-3">
