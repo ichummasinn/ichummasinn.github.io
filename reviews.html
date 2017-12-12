@@ -70,40 +70,6 @@
     </div>
   </div>
 </div>
-<!-- Modal End -->
-
-    <!-- Modal -->
-<!-- <div class="modal fade" id="bookingModal" tabindex="-1" role="dialog" aria-labelledby="bookingModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="bookingModalLabel">BOOK NOW</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-  <div class="form-group">
-    <label for="checkin">Check-in</label>
-    <input type="date" class="form-control" id="checkin" aria-describedby="checkinHelp">
-    <small id="checkinHelp" class="form-text text-muted">Select your Check-in date.</small>
-  </div>
-  <div class="form-group">
-    <label for="checkout">Check-out</label>
-    <input type="date" class="form-control" id="checkout" aria-describedby="checkoutHelp">
-    <small id="checkoutHelp" class="form-text text-muted">Select your Check-out date.</small>
-  </div>
-</form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-success" data-dismiss="modal">Cancel</button>
-        <button type="button" class="btn btn-success">Book Now</button>
-      </div>
-    </div>
-  </div>
-</div> -->
-<!-- Modal End -->
     
 <div class="container marketing">
 
@@ -114,39 +80,19 @@
         <h1 class="jumbotron-heading">Reviews</h1>
         <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris efficitur fermentum dolor, at hendrerit sapien faucibus sit amet.</p>
       </div>
-    </section>
-
-    <hr class="featurette-divider">
-
-    <form id="form-id" class="sdw-1">
-      <div class="form-group">
-        <!-- <label for="cnt-name">Name</label> -->
-        <input type="text" class="form-control form-control-lg" id="cnt-name" aria-describedby="" placeholder="YOUR NAME">
-      </div>
-      <div class="form-group">
-        <!-- <label for="cnt-email">Email Address</label> -->
-        <input type="email" class="form-control form-control-lg" id="cnt-email" placeholder="YOUR EMAIL">
-      </div>
-      <div class="form-group">
-        <!-- <label for="cnt-number">Phone Number</label> -->
-        <input type="number" class="form-control form-control-lg" id="cnt-number" placeholder="YOUR NUMBER">
-      </div>
-      <div class="form-group">
-        <!-- <label for="cnt-text">Message</label> -->
-        <textarea class="form-control form-control-lg" id="cnt-text" rows="3" placeholder="YOUR REVIEW"></textarea>
-      </div>
-      <button type="submit" class="btn btn-success">SEND</button>
-  </form> 
+      <button type="button" class="btn btn-success"><a href="https://www.google.co.in/search?q=ichummas+inn&lrd=0x3ba5da21d82d4595:0xb503315a5579621b,1,,,">Write a Review</a></button>
+    </section> 
 
     <hr class="featurette-divider">
   
 <!-- Google Reviews -->
 <div id="google-reviews"></div>
-
-<link rel="stylesheet" href="https://cdn.rawgit.com/stevenmonson/googleReviews/master/google-places.css">
-<script src="https://cdn.rawgit.com/stevenmonson/googleReviews/6e8f0d79/google-places.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="js/reviews.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key= AIzaSyA0lT7WQbYFH2eKXTsZv2uIfbeKgBJoTkw&signed_in=true&libraries=places"></script>
-
 <script>
 jQuery(document).ready(function( $ ) {
    $("#google-reviews").googlePlaces({
@@ -157,48 +103,6 @@ jQuery(document).ready(function( $ ) {
 });
 </script>
 <!-- Google Reviews End -->
-  
-  <div class="card mb-3">
-  <div class="card-body">
-    <h4 class="card-title">Excellent place</h4>
-    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a tincidunt mauris. Cras molestie sed odio vitae dapibus. Vivamus tincidunt enim non dolor iaculis porttitor. Maecenas tristique ornare velit, in aliquet lectus tincidunt et. Nulla nunc libero, imperdiet et dapibus a, commodo vitae nunc. Nunc fermentum felis vel libero laoreet.</p>
-    <p class="card-text"><small class="text-muted">Posted 3 mins ago</small></p>
-  </div>
-</div>
-
-  <div class="card mb-3">
-  <div class="card-body">
-    <h4 class="card-title">Heaven on earth</h4>
-    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a tincidunt mauris. Cras molestie sed odio vitae dapibus. Vivamus tincidunt enim non dolor iaculis porttitor. Maecenas tristique ornare velit, in aliquet lectus tincidunt et. Nulla nunc libero, imperdiet et dapibus a, commodo vitae nunc. Nunc fermentum felis vel libero laoreet.</p>
-    <p class="card-text"><small class="text-muted">Posted 3 mins ago</small></p>
-  </div>
-</div>
-
-<div class="card mb-3">
-  <div class="card-body">
-    <h4 class="card-title">Memorable stay</h4>
-    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a tincidunt mauris. Cras molestie sed odio vitae dapibus. Vivamus tincidunt enim non dolor iaculis porttitor. Maecenas tristique ornare velit, in aliquet lectus tincidunt et. Nulla nunc libero, imperdiet et dapibus a, commodo vitae nunc. Nunc fermentum felis vel libero laoreet.</p>
-    <p class="card-text"><small class="text-muted">Posted 3 mins ago</small></p>
-  </div>
-</div>
-
-<div class="text-center">
-  <nav aria-label="...">
-    <ul class="pagination">
-      <li class="page-item disabled">
-        <a class="page-link" href="#" tabindex="-1">Previous</a>
-      </li>
-      <li class="page-item"><a class="page-link" href="#">1<span class="sr-only">(current)</span></a></li>
-      <li class="page-item active">
-        <a class="page-link" href="#">2</a>
-      </li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item">
-        <a class="page-link" href="#">Next</a>
-      </li>
-    </ul>
-  </nav>  
-</div>
       
       <hr class="featurette-divider">
 
@@ -212,11 +116,6 @@ jQuery(document).ready(function( $ ) {
           KERALA, INDIA
         </address>
         <a href="#">DIRECTIONS</a> | <a href="#">EMAIL US</a>
-        <!-- <div class="btn-group" role="group" aria-label="">
-          <button type="button" class="btn btn-success">DIRECTIONS</button>
-          <button type="button" class="btn btn-success">EMAIL US</button>
-          <button type="button" class="btn btn-success">CALL US</button>
-        </div> -->
         <p><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+919972394242">+91.9972.394.242</a></p>
         <p id="social-icons">
           <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
@@ -224,7 +123,6 @@ jQuery(document).ready(function( $ ) {
           <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
         </p>
       </footer>
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -237,6 +135,4 @@ jQuery(document).ready(function( $ ) {
     <script src="js/holder.min.js.download"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js.download"></script>
-  
-
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg></body></html>

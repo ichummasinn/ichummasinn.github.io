@@ -80,6 +80,32 @@ i.fa {
 .btn-success:hover {
   box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
 }
+.btn-success a,
+.btn-success a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*Review stars*/
+.review-stars ul {
+display: inline-block;
+list-style: none !important;
+margin:0; padding:0;
+}
+.review-stars ul li {
+float: left;
+list-style: none !important;
+margin-right: 1px;
+line-height:1;
+}
+.review-stars ul li i {
+  color: #E4B248;
+  font-size: 1.4em;
+  font-style:normal;
+}
+.review-stars ul li i.inactive { color: #c6c6c6;}
+.star:after { content: "\2605"; }
+/*Review stars end*/
 
 footer {
   text-align: center;
